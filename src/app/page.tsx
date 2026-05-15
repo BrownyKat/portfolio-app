@@ -1,65 +1,199 @@
 import Image from "next/image";
+import { ButtonLink } from "@/components/atoms/ButtonLink";
+import { LogPreview } from "@/components/molecules/LogPreview";
+import { ProjectCard } from "@/components/molecules/ProjectCard";
+import { CompletionGallery } from "@/components/sections/CompletionGallery";
+import { Timeline } from "@/components/sections/Timeline";
+import { getFeaturedProjects, getProjects } from "@/lib/projects";
+import { getLogs } from "@/lib/logs";
+import { getTimelineEntries } from "@/lib/timeline";
 
 export default function Home() {
+  const projects = getProjects();
+  const featuredProjects = getFeaturedProjects();
+  const allLogs = getLogs();
+  const logs = allLogs.slice(0, 2);
+  const timelineEntries = getTimelineEntries();
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main>
+      <section className="relative overflow-hidden border-b border-[#48e2ff]/20">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#48e2ff] to-transparent" />
+        <div className="floating-cat cat-one" aria-hidden="true">
+          <span />
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className="floating-cat cat-two" aria-hidden="true">
+          <span />
+        </div>
+        <div className="floating-cat cat-three" aria-hidden="true">
+          <span />
+        </div>
+        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1fr_0.82fr] md:items-center lg:px-8 lg:py-20">
+          <div className="animate-rise space-y-7">
+            <div className="space-y-4">
+              <p className="text-sm font-bold uppercase tracking-[0.22em] text-[#48e2ff]">
+                BSIT Student / Web Developer
+              </p>
+              <h1 className="max-w-3xl text-4xl font-black leading-tight text-[#f5fbff] sm:text-5xl lg:text-6xl">
+                Embuido, Franz Joseph M.
+              </h1>
+              <p className="max-w-2xl text-lg leading-8 text-[#b8c8d6]">
+                I am a BSIT student and web developer who enjoys building
+                efficient, user-friendly systems. I work across frontend and
+                backend development with an academic focus on web development.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <ButtonLink href="/work">Explore work</ButtonLink>
+              <ButtonLink
+                href="/logs"
+                variant="secondary"
+              >
+                View logs
+              </ButtonLink>
+            </div>
+            <div className="grid gap-3 text-sm sm:grid-cols-3">
+              <a
+                href="mailto:franzjosephembuido@gmail.com"
+                className="arcane-panel rounded-lg p-4 transition hover:border-[#48e2ff]/60"
+              >
+                <span className="block text-xs font-black uppercase tracking-[0.16em] text-[#89a6b8]">
+                  Email
+                </span>
+                <span className="mt-2 block break-words font-semibold text-[#f5fbff]">
+                  franzjosephembuido@gmail.com
+                </span>
+              </a>
+              <a
+                href="tel:+639452256431"
+                className="arcane-panel rounded-lg p-4 transition hover:border-[#48e2ff]/60"
+              >
+                <span className="block text-xs font-black uppercase tracking-[0.16em] text-[#89a6b8]">
+                  Phone
+                </span>
+                <span className="mt-2 block font-semibold text-[#f5fbff]">
+                  +63-945-225-6431
+                </span>
+              </a>
+              <a
+                href="https://github.com/BrownyKat"
+                target="_blank"
+                rel="noreferrer"
+                className="arcane-panel rounded-lg p-4 transition hover:border-[#48e2ff]/60"
+              >
+                <span className="block text-xs font-black uppercase tracking-[0.16em] text-[#89a6b8]">
+                  GitHub
+                </span>
+                <span className="mt-2 block font-semibold text-[#f5fbff]">
+                  BrownyKat
+                </span>
+              </a>
+            </div>
+            <blockquote className="rounded-lg border border-[#ff4fd8]/25 bg-[#ff4fd8]/8 p-4 text-sm font-medium leading-6 text-[#ffd7f5]">
+              &quot;If money is in, There is no more problem&quot; - By Me
+            </blockquote>
+            <dl className="grid grid-cols-3 gap-3 text-sm">
+              <div className="arcane-panel rounded-lg p-4">
+                <dt className="text-[#89a6b8]">Projects</dt>
+                <dd className="text-2xl font-black text-[#f5fbff]">
+                  {projects.length}
+                </dd>
+              </div>
+              <div className="arcane-panel rounded-lg p-4">
+                <dt className="text-[#89a6b8]">Logs</dt>
+                <dd className="text-2xl font-black text-[#f5fbff]">
+                  {allLogs.length}
+                </dd>
+              </div>
+              <div className="arcane-panel rounded-lg p-4">
+                <dt className="text-[#89a6b8]">Focus</dt>
+                <dd className="text-2xl font-black text-[#f5fbff]">Web</dd>
+              </div>
+            </dl>
+          </div>
+          <div className="animate-float relative flex justify-center md:justify-end">
+            <div className="cybercat" aria-hidden="true">
+              <div className="cybercat-ear cybercat-ear-left" />
+              <div className="cybercat-ear cybercat-ear-right" />
+              <div className="cybercat-head">
+                <div className="cybercat-eye cybercat-eye-left" />
+                <div className="cybercat-eye cybercat-eye-right" />
+                <div className="cybercat-nose" />
+                <div className="cybercat-whisker cybercat-whisker-left" />
+                <div className="cybercat-whisker cybercat-whisker-right" />
+              </div>
+              <div className="cybercat-ring" />
+            </div>
+            <div className="absolute inset-8 rounded-full border border-[#48e2ff]/35 shadow-[0_0_45px_rgba(72,226,255,0.22)]" />
+            <div className="absolute inset-16 rounded-full border border-[#ff4fd8]/25" />
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+              src="/portfolio/franz-profile.png"
+              alt="Profile photo of Franz Joseph Embuido"
+              width={940}
+              height={1123}
+              priority
+              className="relative aspect-square w-full max-w-sm rounded-full border border-[#48e2ff]/45 object-cover object-top shadow-2xl shadow-[#48e2ff]/20"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#48e2ff]">
+              Featured
+            </p>
+            <h2 className="mt-2 text-3xl font-black text-[#f5fbff]">
+              Selected systems
+            </h2>
+          </div>
+          <ButtonLink href="/work" variant="secondary">
+            View all work
+          </ButtonLink>
+        </div>
+        <div className="grid gap-5 md:grid-cols-3">
+          {featuredProjects.map((project) => (
+            <ProjectCard key={project.slug} project={project} />
+          ))}
+        </div>
+      </section>
+
+      <CompletionGallery />
+
+      <section className="border-y border-[#48e2ff]/18 bg-[#081924]/45">
+        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#48e2ff]">
+              Timeline
+            </p>
+            <h2 className="mt-2 text-3xl font-black text-[#f5fbff]">
+              Daily Internship Timeline
+            </h2>
+            <p className="mt-4 text-base leading-7 text-[#b8c8d6]">
+              A day-by-day record of revisions, research, implementation,
+              testing, and shipped project work.
+            </p>
+          </div>
+          <Timeline entries={timelineEntries} />
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="mb-8">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#48e2ff]">
+            Logs
+          </p>
+          <h2 className="mt-2 text-3xl font-black text-[#f5fbff]">
+            Recent notes
+          </h2>
+        </div>
+        <div className="grid gap-5 md:grid-cols-2">
+          {logs.map((log) => (
+            <LogPreview key={log.slug} log={log} />
+          ))}
+        </div>
+      </section>
+    </main>
   );
 }
