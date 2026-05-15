@@ -7,13 +7,13 @@ const monthFormatter = new Intl.DateTimeFormat("en", {
 });
 
 const focusStyles: Record<string, string> = {
-  MIH: "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe6a3]",
-  Learning: "border-[#b8ff6a]/35 bg-[#b8ff6a]/12 text-[#dcffae]",
-  Hack4Mapandan: "border-[#48e2ff]/40 bg-[#48e2ff]/12 text-[#9ff0ff]",
-  DeskDine: "border-[#ff4fd8]/35 bg-[#ff4fd8]/12 text-[#ffb4ee]",
-  PromptGraph: "border-[#8ea8ff]/35 bg-[#8ea8ff]/12 text-[#c9d4ff]",
-  "Page Creation": "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe6a3]",
-  "Product Ideation": "border-[#b8ff6a]/35 bg-[#b8ff6a]/12 text-[#dcffae]",
+  MIH: "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe5a1]",
+  Learning: "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe9ad]",
+  Hack4Mapandan: "border-[#47d7c4]/40 bg-[#47d7c4]/12 text-[#9df3e7]",
+  DeskDine: "border-[#ff7a59]/35 bg-[#ff7a59]/12 text-[#ffb199]",
+  PromptGraph: "border-[#7f9cf5]/35 bg-[#7f9cf5]/12 text-[#d7defc]",
+  "Page Creation": "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe5a1]",
+  "Product Ideation": "border-[#ffd166]/35 bg-[#ffd166]/12 text-[#ffe9ad]",
 };
 
 function getMonthKey(date: string) {
@@ -46,70 +46,70 @@ export function Timeline({ entries }: { entries: TimelineEntry[] }) {
   return (
     <section className="space-y-5" aria-label="Daily internship timeline">
       <div className="grid gap-3 sm:grid-cols-3">
-        <div className="rounded-lg border border-[#48e2ff]/20 bg-white/[0.045] p-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#89a6b8]">
+        <div className="rounded-lg border border-[#47d7c4]/20 bg-white/[0.045] p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#93b8b1]">
             Entries
           </p>
-          <p className="mt-2 text-2xl font-black text-[#f5fbff]">
+          <p className="mt-2 text-2xl font-black text-[#fff7ec]">
             {entries.length}
           </p>
         </div>
-        <div className="rounded-lg border border-[#48e2ff]/20 bg-white/[0.045] p-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#89a6b8]">
+        <div className="rounded-lg border border-[#47d7c4]/20 bg-white/[0.045] p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#93b8b1]">
             Tracks
           </p>
-          <p className="mt-2 text-2xl font-black text-[#f5fbff]">
+          <p className="mt-2 text-2xl font-black text-[#fff7ec]">
             {focusCount}
           </p>
         </div>
-        <div className="rounded-lg border border-[#48e2ff]/20 bg-white/[0.045] p-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#89a6b8]">
+        <div className="rounded-lg border border-[#47d7c4]/20 bg-white/[0.045] p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[#93b8b1]">
             Latest
           </p>
-          <p className="mt-2 text-lg font-black text-[#f5fbff]">
+          <p className="mt-2 text-lg font-black text-[#fff7ec]">
             {latestEntry ? formatDate(latestEntry.date) : "No entries"}
           </p>
         </div>
       </div>
 
-      <div className="max-h-[44rem] overflow-y-auto rounded-lg border border-[#48e2ff]/22 bg-[#071018]/56 p-3 shadow-[inset_0_0_35px_rgba(72,226,255,0.06)]">
+      <div className="max-h-[44rem] overflow-y-auto rounded-lg border border-[#47d7c4]/22 bg-[#102b2f]/56 p-3 shadow-[inset_0_0_35px_rgba(71,215,196,0.06)]">
         <ol className="space-y-6">
           {groupedEntries.map((group) => (
             <li key={group.month} className="space-y-3">
-              <div className="sticky top-0 z-10 -mx-3 border-y border-[#48e2ff]/14 bg-[#071018]/92 px-3 py-2 backdrop-blur-xl">
-                <p className="text-xs font-black uppercase tracking-[0.22em] text-[#48e2ff]">
+              <div className="sticky top-0 z-10 -mx-3 border-y border-[#47d7c4]/14 bg-[#102b2f]/92 px-3 py-2 backdrop-blur-xl">
+                <p className="text-xs font-black uppercase tracking-[0.22em] text-[#47d7c4]">
                   {group.month}
                 </p>
               </div>
-              <ol className="relative space-y-3 border-l border-[#48e2ff]/20 pl-5">
+              <ol className="relative space-y-3 border-l border-[#47d7c4]/20 pl-5">
                 {group.entries.map((entry) => (
                   <li
                     key={`${entry.date}-${entry.title}`}
-                    className="relative rounded-lg border border-[#48e2ff]/16 bg-white/[0.04] p-4 transition duration-300 hover:-translate-y-0.5 hover:border-[#48e2ff]/45 hover:bg-white/[0.065]"
+                    className="relative rounded-lg border border-[#47d7c4]/16 bg-white/[0.04] p-4 transition duration-300 hover:-translate-y-0.5 hover:border-[#47d7c4]/45 hover:bg-white/[0.065]"
                   >
-                    <span className="absolute -left-[1.68rem] top-5 h-3 w-3 rounded-full border-2 border-[#071018] bg-[#48e2ff] shadow-[0_0_18px_rgba(72,226,255,0.7)]" />
+                    <span className="absolute -left-[1.68rem] top-5 h-3 w-3 rounded-full border-2 border-[#102b2f] bg-[#47d7c4] shadow-[0_0_18px_rgba(71,215,196,0.7)]" />
                     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                       <div className="min-w-0">
                         <time
                           dateTime={entry.date}
-                          className="text-xs font-semibold uppercase tracking-[0.14em] text-[#89a6b8]"
+                          className="text-xs font-semibold uppercase tracking-[0.14em] text-[#93b8b1]"
                         >
                           {formatDate(entry.date)}
                         </time>
-                        <h3 className="mt-1 text-base font-semibold text-[#f5fbff]">
+                        <h3 className="mt-1 text-base font-semibold text-[#fff7ec]">
                           {entry.title}
                         </h3>
                       </div>
                       <span
                         className={`inline-flex min-h-7 shrink-0 items-center rounded-full border px-3 py-1 text-xs font-semibold ${
                           focusStyles[entry.focus] ??
-                          "border-[#48e2ff]/30 bg-[#48e2ff]/10 text-[#9ff0ff]"
+                          "border-[#47d7c4]/30 bg-[#47d7c4]/10 text-[#9df3e7]"
                         }`}
                       >
                         {entry.focus}
                       </span>
                     </div>
-                    <p className="mt-3 text-sm leading-6 text-[#b8c8d6]">
+                    <p className="mt-3 text-sm leading-6 text-[#c8ded7]">
                       {entry.summary}
                     </p>
                   </li>

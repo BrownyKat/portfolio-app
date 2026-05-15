@@ -55,21 +55,21 @@ export default async function LogPage({ params }: LogPageProps) {
   return (
     <main className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[minmax(0,1fr)_22rem] lg:px-8">
       <article>
-        <header className="border-b border-[#48e2ff]/18 pb-8">
+        <header className="border-b border-[#47d7c4]/18 pb-8">
           <Link
             href={`/logs#log-${log.slug}`}
-            className="mb-6 inline-flex min-h-11 items-center rounded-full border border-[#48e2ff]/35 bg-[#48e2ff]/10 px-4 text-sm font-semibold text-[#9ff0ff] transition hover:-translate-y-0.5 hover:border-[#b8ff6a]/70 hover:text-[#f5fbff]"
+            className="mb-6 inline-flex min-h-11 items-center rounded-full border border-[#47d7c4]/35 bg-[#47d7c4]/10 px-4 text-sm font-semibold text-[#9df3e7] transition hover:-translate-y-0.5 hover:border-[#ffd166]/70 hover:text-[#fff7ec]"
           >
             Back to selected log
           </Link>
-          <div className="flex flex-wrap items-center gap-3 text-sm text-[#89a6b8]">
+          <div className="flex flex-wrap items-center gap-3 text-sm text-[#93b8b1]">
             <time dateTime={log.date}>{formatDate(log.date)}</time>
             <span>{log.readingTime}</span>
           </div>
-          <h1 className="mt-4 text-4xl font-black leading-tight text-[#f5fbff] sm:text-5xl">
+          <h1 className="section-title mt-4 text-[#fff7ec]">
             {log.title}
           </h1>
-          <p className="mt-4 text-lg leading-8 text-[#b8c8d6]">
+          <p className="mt-4 text-xl font-semibold leading-9 text-[#c8ded7]">
             {log.summary}
           </p>
           <div className="mt-5 flex flex-wrap gap-2">
@@ -108,7 +108,7 @@ export default async function LogPage({ params }: LogPageProps) {
       </article>
 
       <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
-        <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-[#48e2ff]">
+        <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-[#47d7c4]">
           More Logs
         </h2>
         {relatedLogs.map((entry) => (

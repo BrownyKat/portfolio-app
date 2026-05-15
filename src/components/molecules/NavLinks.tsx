@@ -28,8 +28,8 @@ export function NavLinks() {
             aria-current={isActive ? "page" : undefined}
             className={`inline-flex min-h-11 items-center rounded-full px-3 text-sm font-semibold transition sm:px-4 ${
               isActive
-                ? "border border-[#48e2ff]/55 bg-[#48e2ff]/14 text-[#9ff0ff] shadow-[0_0_22px_rgba(72,226,255,0.16)]"
-                : "text-[#b8c8d6] hover:bg-white/7 hover:text-[#f5fbff]"
+                ? "border border-[#47d7c4]/55 bg-[#47d7c4]/14 text-[#9df3e7] shadow-[0_0_22px_rgba(71,215,196,0.18)]"
+                : "text-[#c8ded7] hover:bg-[#fff7ec]/8 hover:text-[#fff7ec]"
             }`}
           >
             {link.label}

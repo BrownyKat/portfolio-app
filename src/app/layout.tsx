@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://local-portfolio.example"),
   title: {
-    default: "Embuido, Fran Joseph M. | Portfolio",
-    template: "%s | Embuido, Fran Joseph M.",
+    default: "Embuido, Franz Joseph M. | Portfolio",
+    template: "%s | Embuido, Franz Joseph M.",
   },
   description:
-    "A polished portfolio for Embuido, Fran Joseph M., a BSIT student featuring full-stack projects, internship logs, and completion screenshots.",
+    "A polished portfolio for Embuido, Franz Joseph M., a BSIT student featuring full-stack projects, internship logs, and completion screenshots.",
   openGraph: {
-    title: "Embuido, Fran Joseph M. | Portfolio",
+    title: "Embuido, Franz Joseph M. | Portfolio",
     description:
       "BSIT student portfolio with full-stack projects, internship logs, and completion screenshots presented in a clean sci-fi interface.",
     type: "website",

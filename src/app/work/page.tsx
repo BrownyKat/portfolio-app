@@ -15,13 +15,13 @@ export default function WorkPage() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
       <header className="mb-10 max-w-3xl">
-        <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#48e2ff]">
+        <p className="section-kicker uppercase tracking-[0.2em]">
           Work
         </p>
-        <h1 className="mt-3 text-4xl font-black leading-tight text-[#f5fbff] sm:text-5xl">
+        <h1 className="section-title mt-3 text-[#fff7ec]">
           Systems, pages, and shipped interfaces.
         </h1>
-        <p className="mt-4 text-lg leading-8 text-[#b8c8d6]">
+        <p className="mt-4 text-xl font-semibold leading-9 text-[#c8ded7]">
           A focused gallery of compact project previews. Open any card for the
           complete project idea, task involvement, evidence, and tools.
         </p>

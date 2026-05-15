@@ -3,9 +3,9 @@ import type { ComponentPropsWithoutRef } from "react";
 type BadgeTone = "neutral" | "accent" | "success";
 
 const tones: Record<BadgeTone, string> = {
-  neutral: "border-[#48e2ff]/25 bg-white/6 text-[#c9dae6]",
-  accent: "border-[#48e2ff]/45 bg-[#48e2ff]/12 text-[#9ff0ff]",
-  success: "border-[#b8ff6a]/45 bg-[#b8ff6a]/12 text-[#d8ff9f]",
+  neutral: "border-[#47d7c4]/25 bg-[#fff7ec]/7 text-[#d6e7df]",
+  accent: "border-[#47d7c4]/45 bg-[#47d7c4]/12 text-[#9df3e7]",
+  success: "border-[#ffd166]/45 bg-[#ffd166]/12 text-[#ffe5a1]",
 };
 
 interface BadgeProps extends ComponentPropsWithoutRef<"span"> {

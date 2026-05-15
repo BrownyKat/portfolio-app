@@ -12,9 +12,9 @@ export function ButtonLink({
 }: ButtonLinkProps) {
   const variants = {
     primary:
-      "border border-[#48e2ff]/70 bg-[#48e2ff] text-[#061018] shadow-lg shadow-[#48e2ff]/25 hover:-translate-y-0.5 hover:bg-[#b8ff6a]",
+      "border border-[#47d7c4]/70 bg-[#47d7c4] text-[#102a2e] shadow-lg shadow-[#47d7c4]/25 hover:-translate-y-0.5 hover:bg-[#ffd166]",
     secondary:
-      "border border-[#ff4fd8]/40 bg-white/7 text-[#f5fbff] shadow-lg shadow-[#ff4fd8]/10 hover:-translate-y-0.5 hover:border-[#48e2ff] hover:bg-[#48e2ff]/10",
+      "border border-[#ff7a59]/45 bg-[#fff7ec]/8 text-[#fff7ec] shadow-lg shadow-[#ff7a59]/15 hover:-translate-y-0.5 hover:border-[#47d7c4] hover:bg-[#47d7c4]/12",
   };
 
   return (

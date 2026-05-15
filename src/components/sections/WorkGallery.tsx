@@ -40,10 +40,10 @@ export function WorkGallery({
       <div className="space-y-4">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
-            <h2 id="work-gallery" className="text-2xl font-bold text-[#f5fbff]">
+            <h2 id="work-gallery" className="text-2xl font-bold text-[#fff7ec]">
               Project Gallery
             </h2>
-            <p className="mt-1 text-sm text-[#b8c8d6]">
+            <p className="mt-1 text-sm text-[#c8ded7]">
               Compact project squares. Open one to see the full task involvement,
               tools, status, and evidence.
             </p>
@@ -52,7 +52,7 @@ export function WorkGallery({
             role="status"
             aria-live="polite"
             aria-atomic="true"
-            className="text-sm font-semibold text-[#9ff0ff]"
+            className="text-sm font-semibold text-[#9df3e7]"
           >
             {filteredProjects.length} shown
           </p>
@@ -69,8 +69,8 @@ export function WorkGallery({
                 aria-pressed={isActive}
                 className={`min-h-11 shrink-0 rounded-full border px-4 text-sm font-semibold transition ${
                   isActive
-                    ? "border-[#48e2ff]/60 bg-[#48e2ff]/14 text-[#9ff0ff] shadow-[0_0_20px_rgba(72,226,255,0.14)]"
-                    : "border-[#48e2ff]/22 bg-white/6 text-[#b8c8d6] hover:border-[#48e2ff]/60 hover:text-[#f5fbff]"
+                    ? "border-[#47d7c4]/60 bg-[#47d7c4]/14 text-[#9df3e7] shadow-[0_0_20px_rgba(71,215,196,0.14)]"
+                    : "border-[#47d7c4]/22 bg-white/6 text-[#c8ded7] hover:border-[#47d7c4]/60 hover:text-[#fff7ec]"
                 }`}
               >
                 {filter}

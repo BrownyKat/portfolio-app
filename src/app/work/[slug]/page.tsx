@@ -24,13 +24,13 @@ function DetailList({
 
   return (
     <section className="arcane-card rounded-lg p-5">
-      <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#48e2ff]">
+      <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#47d7c4]">
         {title}
       </h2>
-      <ul className="mt-4 space-y-3 text-sm leading-7 text-[#d8e8f2]">
+      <ul className="mt-4 space-y-3 text-sm leading-7 text-[#e4f1eb]">
         {items.map((item) => (
           <li key={item} className="flex gap-3">
-            <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-[#48e2ff] shadow-[0_0_14px_rgba(72,226,255,0.7)]" />
+            <span className="mt-2.5 h-2 w-2 shrink-0 rounded-full bg-[#47d7c4] shadow-[0_0_14px_rgba(71,215,196,0.7)]" />
             <span>{item}</span>
           </li>
         ))}
@@ -46,7 +46,7 @@ function EvidencePanel({ project }: { project: Project }) {
 
   return (
     <section className="arcane-card rounded-lg p-5">
-      <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#48e2ff]">
+      <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#47d7c4]">
         Evidence of Work
       </h2>
       <div className="mt-4 flex flex-wrap gap-2">
@@ -57,14 +57,14 @@ function EvidencePanel({ project }: { project: Project }) {
               href={item.url}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-11 items-center rounded-full border border-[#48e2ff]/28 bg-[#48e2ff]/9 px-4 py-2 text-sm font-semibold text-[#d8f8ff] transition hover:border-[#48e2ff]/70 hover:text-white"
+              className="inline-flex min-h-11 items-center rounded-full border border-[#47d7c4]/28 bg-[#47d7c4]/9 px-4 py-2 text-sm font-semibold text-[#d8f8ff] transition hover:border-[#47d7c4]/70 hover:text-white"
             >
               {item.label}
             </Link>
           ) : (
             <span
               key={item.label}
-              className="inline-flex min-h-11 items-center rounded-full border border-[#89a6b8]/22 bg-white/[0.045] px-4 py-2 text-sm font-semibold text-[#c9dae6]"
+              className="inline-flex min-h-11 items-center rounded-full border border-[#93b8b1]/22 bg-white/[0.045] px-4 py-2 text-sm font-semibold text-[#d6e7df]"
             >
               {item.label}
             </span>
@@ -117,7 +117,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
       <Link
         href="/work"
-        className="inline-flex min-h-11 items-center text-sm font-semibold text-[#9ff0ff] transition hover:text-[#b8ff6a]"
+        className="inline-flex min-h-11 items-center text-sm font-semibold text-[#9df3e7] transition hover:text-[#ffd166]"
       >
         Back to work
       </Link>
@@ -129,16 +129,16 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <Badge tone="accent">{project.category}</Badge>
               <time
                 dateTime={project.completionDate}
-                className="text-sm font-semibold text-[#89a6b8]"
+                className="text-sm font-semibold text-[#93b8b1]"
               >
                 {project.dateLabel ?? formatDate(project.completionDate)}
               </time>
             </div>
             <div>
-              <h1 className="text-4xl font-black leading-tight text-[#f5fbff] sm:text-5xl">
+              <h1 className="section-title text-[#fff7ec]">
                 {project.title}
               </h1>
-              <p className="mt-4 max-w-3xl text-lg leading-8 text-[#b8c8d6]">
+              <p className="mt-4 max-w-3xl text-xl font-semibold leading-9 text-[#c8ded7]">
                 {project.description}
               </p>
             </div>
@@ -155,16 +155,16 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                   sizes="(min-width: 1024px) 66vw, 100vw"
                   className="object-cover object-top"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#071018]/38 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#102b2f]/38 to-transparent" />
               </div>
             </div>
           ) : null}
 
           <section className="arcane-card rounded-lg p-5">
-            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#ffb4ee]">
+            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#ffb199]">
               Impact
             </h2>
-            <p className="mt-3 text-base leading-8 text-[#d8e8f2]">
+            <p className="mt-3 text-lg font-semibold leading-8 text-[#e4f1eb]">
               {project.impact}
             </p>
           </section>
@@ -176,26 +176,26 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <section className="arcane-card rounded-lg p-5">
-            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#48e2ff]">
+            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#47d7c4]">
               Project Summary
             </h2>
             <dl className="mt-4 space-y-4 text-sm">
               <div>
-                <dt className="text-[#89a6b8]">Name</dt>
-                <dd className="mt-1 font-semibold text-[#f5fbff]">
+                <dt className="text-[#93b8b1]">Name</dt>
+                <dd className="mt-1 font-semibold text-[#fff7ec]">
                   Embuido, Franz Joseph M.
                 </dd>
               </div>
               <div>
-                <dt className="text-[#89a6b8]">Status</dt>
-                <dd className="mt-1 font-semibold text-[#f5fbff]">
+                <dt className="text-[#93b8b1]">Status</dt>
+                <dd className="mt-1 font-semibold text-[#fff7ec]">
                   {project.status ?? "Documented"}
                 </dd>
               </div>
               {project.collaborators?.length ? (
                 <div>
-                  <dt className="text-[#89a6b8]">Collaborators</dt>
-                  <dd className="mt-1 font-semibold text-[#f5fbff]">
+                  <dt className="text-[#93b8b1]">Collaborators</dt>
+                  <dd className="mt-1 font-semibold text-[#fff7ec]">
                     {project.collaborators.join(", ")}
                   </dd>
                 </div>
@@ -204,7 +204,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           </section>
 
           <section className="arcane-card rounded-lg p-5">
-            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#48e2ff]">
+            <h2 className="text-sm font-black uppercase tracking-[0.18em] text-[#47d7c4]">
               Stack
             </h2>
             <div className="mt-4 flex flex-wrap gap-2">
