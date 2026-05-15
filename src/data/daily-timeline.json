@@ -1,0 +1,278 @@
+[
+  {
+    "date": "2026-02-10",
+    "title": "MIH Website Revision",
+    "focus": "MIH",
+    "summary": "Revised the MIH website and fixed minor bugs."
+  },
+  {
+    "date": "2026-02-11",
+    "title": "Homepage and Pricing Updates",
+    "focus": "MIH",
+    "summary": "Fixed minor bugs, changed the homepage color palette, added call-to-action buttons and a mini contact form in Transparent Pricing, adjusted cards and buttons, created the Partners page, and updated business packages."
+  },
+  {
+    "date": "2026-02-12",
+    "title": "Transparent Pricing Improvements",
+    "focus": "MIH",
+    "summary": "Fixed Transparent Pricing bugs, improved its card alignment and design, explored web design improvements, and restored a missing footer."
+  },
+  {
+    "date": "2026-02-13",
+    "title": "Footer and Contact Form Polish",
+    "focus": "MIH",
+    "summary": "Added social links in the footer, improved UI design across pages, and added a mini popup contact form in the pricing section."
+  },
+  {
+    "date": "2026-02-16",
+    "title": "MIH UI Improvement",
+    "focus": "MIH",
+    "summary": "Continued UI improvements for the MIH website."
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Responsiveness and Mega Menu Adjustments",
+    "focus": "MIH",
+    "summary": "Adjusted text alignment, responsiveness, and mega menu content on several pages."
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Mega Menu Simplification",
+    "focus": "MIH",
+    "summary": "Updated and simplified the mega menu based on feedback and resolved WordPress setting challenges for smoother navigation."
+  },
+  {
+    "date": "2026-02-23",
+    "title": "Node.js and MongoDB Review",
+    "focus": "Learning",
+    "summary": "Reviewed Node.js fundamentals and explored MongoDB."
+  },
+  {
+    "date": "2026-02-24",
+    "title": "RA Assignment and Backend Learning",
+    "focus": "Learning",
+    "summary": "Finished the team assignment in the RA project and continued improving Node.js and MongoDB knowledge."
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Disaster Response Research",
+    "focus": "Hack4Mapandan",
+    "summary": "Researched Disaster Response and Emergency Verification for the MDRRMO Hack4Mapandan project."
+  },
+  {
+    "date": "2026-03-02",
+    "title": "MDRRMO Research, Plan, and MVP",
+    "focus": "Hack4Mapandan",
+    "summary": "Completed research, built a conceptual prototype and structured development plan, and created an MVP for Disaster Response and Emergency Verification."
+  },
+  {
+    "date": "2026-03-03",
+    "title": "MDRRMO Prototype Hosting",
+    "focus": "Hack4Mapandan",
+    "summary": "Created and hosted the Disaster Response and Emergency Verification web prototype and prepared its presentation."
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Admin Dashboard and Presentation",
+    "focus": "Hack4Mapandan",
+    "summary": "Added an admin dashboard, fixed stability bugs, and finalized the PowerPoint presentation."
+  },
+  {
+    "date": "2026-03-05",
+    "title": "MDRRMO Features and Bug Fixes",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved the Disaster Response webpage, fixed previous bugs, and added new website functions and features."
+  },
+  {
+    "date": "2026-03-06",
+    "title": "Prototype Polish and Hosting Fixes",
+    "focus": "Hack4Mapandan",
+    "summary": "Polished the MDRRMO webpage, fixed hosting-related bugs, and continued learning Node.js."
+  },
+  {
+    "date": "2026-03-09",
+    "title": "MDRRMO Prototype Refinement",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved and polished the web prototype and fixed minor bugs."
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Dispatcher Workflow and Page Creation",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved dispatcher claiming and pass-off workflows, automatic claim behavior, admin and reporter UI, report sorting, reporter manuals, and created a 2026 Buick Envista Sport page from scratch."
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Chrysler Pacifica Content Template",
+    "focus": "Page Creation",
+    "summary": "Changed the content template for the Chrysler Pacifica Wheelchair Accessible Vans page in Depew, NY."
+  },
+  {
+    "date": "2026-03-12",
+    "title": "MDRRMO Mobile Version",
+    "focus": "Hack4Mapandan",
+    "summary": "Created a mobile version of the Disaster Response and Emergency Verification web app."
+  },
+  {
+    "date": "2026-03-13",
+    "title": "MDRRMO Public Pages and Report Flow",
+    "focus": "Hack4Mapandan",
+    "summary": "Added password reset and remember-me, improved dispatcher UI, added report quick search and retry states, polished reporting, updated severity cues and quick tags, added attestation, expanded public pages, and revised assigned page-creation templates."
+  },
+  {
+    "date": "2026-03-16",
+    "title": "Database and Function Fixes",
+    "focus": "Hack4Mapandan",
+    "summary": "Fixed database and button-function errors, resolved issues from new functions, and improved the revised reporter page UI."
+  },
+  {
+    "date": "2026-03-17",
+    "title": "Vercel and Supabase Integration",
+    "focus": "Hack4Mapandan",
+    "summary": "Fixed hosting issues on Vercel, integrated Supabase image storage for web and mobile, and continued UI improvements."
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Web App Hosting and Refinement",
+    "focus": "Hack4Mapandan",
+    "summary": "Fixed web bugs, refined UI design, added functions, and hosted the web app on Vercel."
+  },
+  {
+    "date": "2026-03-24",
+    "title": "Merge and Web App Fixes",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved the Disaster Response web app and fixed a merge issue."
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Git, Vercel, and Data Connections",
+    "focus": "Hack4Mapandan",
+    "summary": "Fixed Git and Vercel problems, resolved bugs, improved web connections with Supabase and MongoDB Atlas, and refined navbar, font styles, and page sizing."
+  },
+  {
+    "date": "2026-03-26",
+    "title": "Public Pages, Dispatcher Performance, and Admin Alerts",
+    "focus": "Hack4Mapandan",
+    "summary": "Added Track page integration, unified public navigation and typography, improved reporting validation, upgraded About/SOS animations, fixed dashboard counts, optimized dispatcher rendering, switched maps to on-demand previews, improved online status logic, and added admin alert edit/delete support."
+  },
+  {
+    "date": "2026-03-27",
+    "title": "Report Tracking and Mobile Improvements",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved report tracking by ID, dispatcher handoff visibility, Vercel route handling, API validation, editable realtime alerts, public and dispatcher UI polish, local QR image use, and mobile tracking reliability and layout."
+  },
+  {
+    "date": "2026-04-06",
+    "title": "H4M Page Revisions",
+    "focus": "Hack4Mapandan",
+    "summary": "Fixed minor web problems, changed text, and revised pages during a half-day session."
+  },
+  {
+    "date": "2026-04-07",
+    "title": "Reporter, Dispatcher, and Storage Fixes",
+    "focus": "Hack4Mapandan",
+    "summary": "Improved reporter and dispatcher UI, fixed auto-detect location and report-page buttons, resolved dispatcher report loading and missing image issues, and fixed Atlas/Supabase connection conflicts."
+  },
+  {
+    "date": "2026-04-08",
+    "title": "MDRRMO Completion",
+    "focus": "Hack4Mapandan",
+    "summary": "Completed the Disaster Response and Emergency Verification web project, added alert delete confirmations, cleaned and polished web and mobile UI, and made user reports appear automatically on the tracking page."
+  },
+  {
+    "date": "2026-04-13",
+    "title": "PromptGraph Client Audit",
+    "focus": "PromptGraph",
+    "summary": "Audited the client list in PromptGraph."
+  },
+  {
+    "date": "2026-04-14",
+    "title": "PromptGraph Audit Completion",
+    "focus": "PromptGraph",
+    "summary": "Finished auditing PromptGraph clients."
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Digital Solution Ideation",
+    "focus": "Product Ideation",
+    "summary": "Identified a friction point in daily operations and started proposing a digital solution or app concept."
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Operational Friction Solution",
+    "focus": "Product Ideation",
+    "summary": "Found a daily-operations friction point and formed a solution concept."
+  },
+  {
+    "date": "2026-04-17",
+    "title": "Project Pitches and DeskDine Approval",
+    "focus": "DeskDine",
+    "summary": "Developed and presented project pitches, with DeskDine accepted for development."
+  },
+  {
+    "date": "2026-04-21",
+    "title": "DeskDine Web and Mobile Development",
+    "focus": "DeskDine",
+    "summary": "Developed DeskDine as a web and mobile app for admin, staff, and customer users while working around slow internet."
+  },
+  {
+    "date": "2026-04-22",
+    "title": "DeskDine Database and Feature Fixes",
+    "focus": "DeskDine",
+    "summary": "Fixed database write/update issues, added new application functions, and resolved minor bugs with some remaining for follow-up."
+  },
+  {
+    "date": "2026-04-23",
+    "title": "DeskDine Ordering and Admin Redesign",
+    "focus": "DeskDine",
+    "summary": "Configured checkout and order handling, implemented receipts and post-order features, worked through Maya payment issues, redesigned admin and staff systems, updated order and menu management, optimized staff management, fixed menu/media handlers, enhanced ordering, and planned runtime verification cleanup."
+  },
+  {
+    "date": "2026-04-24",
+    "title": "DeskDine Payment and Parsing Fixes",
+    "focus": "DeskDine",
+    "summary": "Fixed Maya Pay connection issues, resolved parsing problems that caused application bugs, and removed unused models."
+  },
+  {
+    "date": "2026-04-28",
+    "title": "DeskDine UI and Mobile Client Improvements",
+    "focus": "DeskDine",
+    "summary": "Changed email to address, fixed payment receipt issues, improved UI/UX, removed redundancy in admin and staff pages, redesigned the mobile client, and improved mobile functionality while working around slow internet."
+  },
+  {
+    "date": "2026-04-29",
+    "title": "DeskDine Mobile and Receipt Progress",
+    "focus": "DeskDine",
+    "summary": "Improved web and mobile UI, fixed mobile bugs, removed mobile redundancy, improved mobile order functions, added database fields, improved receipts with image download, and presented progress to Sir Carl."
+  },
+  {
+    "date": "2026-04-30",
+    "title": "DeskDine Revenue Tracker",
+    "focus": "DeskDine",
+    "summary": "Added a revenue tracker for staff and admin, improved staff/admin UI and UX, and fixed admin-page bugs."
+  },
+  {
+    "date": "2026-05-02",
+    "title": "DeskDine Payment Flow and Revenue Display",
+    "focus": "DeskDine",
+    "summary": "Fixed web and mobile bugs, added cup size in the cafe section, changed direct Maya/GCash payment to proof-of-payment upload, improved receipts and orders, refined UI/UX, and improved revenue data display."
+  },
+  {
+    "date": "2026-05-04",
+    "title": "DeskDine Bug Hunting",
+    "focus": "DeskDine",
+    "summary": "Tested admin and staff website areas, fixed some bugs, and identified remaining issues."
+  },
+  {
+    "date": "2026-05-05",
+    "title": "DeskDine Cleanup and Testing",
+    "focus": "DeskDine",
+    "summary": "Fixed bugs, ran quick application tests, and deeply cleaned redundant mobile code to make future modification easier."
+  },
+  {
+    "date": "2026-05-06",
+    "title": "DeskDine Final Checks and Portfolio Start",
+    "focus": "DeskDine",
+    "summary": "Changed GCash and MayaPay into a general e-wallet flow, fixed bugs and missing pages, had DeskDine checked by Sir Carl, started the portfolio, and added revenue export."
+  }
+]

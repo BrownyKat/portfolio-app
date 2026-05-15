@@ -1,0 +1,224 @@
+[
+  {
+    "slug": "makerspace-website",
+    "title": "Makerspace Website",
+    "description": "Supported a WordPress website project by helping the group identify the right WordPress tools, troubleshoot setup issues, and add required website content before the project was handed to another group.",
+    "techStack": ["WordPress", "Google Docs", "Documentation", "Website Support"],
+    "completionDate": "2026-02-28",
+    "dateLabel": "February 2026",
+    "category": "WordPress",
+    "featured": true,
+    "impact": "Helped unblock the team by solving WordPress tooling confusion, fixing project errors, and completing needed website additions before handoff.",
+    "collaborators": ["Rexter", "Balmonte", "Lapena, Christian"],
+    "status": "Passed to another group",
+    "keyContributions": [
+      "Gave solutions when the team was unsure what tools to use in WordPress.",
+      "Fixed errors and bugs encountered during the project.",
+      "Added required website content and missing website elements.",
+      "Supported documentation through Google Docs."
+    ],
+    "tools": ["WordPress", "Google Docs"],
+    "evidence": [
+      {
+        "label": "Daily time-in and time-out records"
+      },
+      {
+        "label": "Past WordPress login evidence kept private"
+      }
+    ]
+  },
+  {
+    "slug": "svs-mdrrmo-emergency-reporting-system",
+    "title": "Disaster Response & Emergency Verification (MDRRMO / SVS)",
+    "description": "Created and improved a disaster response and emergency verification system for public users, dispatchers, and admins. The work covered page outlines, database fixes, UI/UX improvements, GitHub deployment, Vercel hosting, and migration from previous CSS into Tailwind.",
+    "techStack": ["Node.js", "Express", "EJS", "Tailwind CSS", "MongoDB", "Vercel", "GitHub"],
+    "completionDate": "2026-05-07",
+    "dateLabel": "February 2026",
+    "category": "Full-Stack",
+    "featured": true,
+    "impact": "Connected citizen emergency reporting with dispatcher and admin workflows while improving reliability, UI clarity, and deployment readiness.",
+    "status": "Completed",
+    "keyContributions": [
+      "Created the outline of the SVS web page.",
+      "Fixed bugs, issues, and database problems in the web app.",
+      "Improved the UI/UX of the webpage.",
+      "Pushed the project to GitHub and hosted it on Vercel.",
+      "Changed the previous CSS implementation into Tailwind CSS."
+    ],
+    "tools": ["VS Code", "EJS", "Tailwind CSS", "Node.js", "MongoDB", "GitHub", "Vercel"],
+    "evidence": [
+      {
+        "label": "User site",
+        "url": "https://svsmdrrmo.vercel.app/"
+      },
+      {
+        "label": "Admin login page",
+        "url": "https://svsmdrrmo.vercel.app/login"
+      },
+      {
+        "label": "Dispatcher login page",
+        "url": "https://svsmdrrmo.vercel.app/dispatcher/login"
+      },
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/BrownyKat/SVS-MDRRMO.git"
+      },
+      {
+        "label": "Admin and dispatcher credentials kept private"
+      }
+    ],
+    "imageSrc": "/portfolio/completion/mdrrmo-dashboard.png",
+    "imageAlt": "SVS-MDRRMO SOS alert interface screenshot",
+    "completionProofs": [
+      {
+        "src": "/portfolio/completion/mdrrmo-dashboard.png",
+        "title": "MDRRMO SOS Flow",
+        "category": "Emergency reporting",
+        "description": "Citizen-facing SOS screen with emergency contact saving and response instructions.",
+        "alt": "SVS-MDRRMO SOS alert interface",
+        "featured": true
+      },
+      {
+        "src": "/portfolio/completion/mih-revision.png",
+        "title": "MDRRMO Dispatcher Analytics",
+        "category": "Operations dashboard",
+        "description": "Dispatcher view with report totals, emergency levels, audit entries, and false-report analytics.",
+        "alt": "SVS-MDRRMO dispatcher analytics dashboard",
+        "featured": true
+      },
+      {
+        "src": "/portfolio/completion/mdrrmo-tracking.png",
+        "title": "MDRRMO Report Review",
+        "category": "Report verification",
+        "description": "Report evidence modal used for reviewing submitted media and authenticity notes.",
+        "alt": "SVS-MDRRMO report review modal"
+      }
+    ]
+  },
+  {
+    "slug": "deskdine-mobile-user-application",
+    "title": "DeskDine Mobile User Application",
+    "description": "Created the mobile user application for DeskDine, a lunch ordering system focused on allowing users to access ordering flows from a mobile client.",
+    "techStack": ["Flutter", "Mobile App", "VS Code"],
+    "completionDate": "2026-05-06",
+    "dateLabel": "February 2026",
+    "category": "Mobile App",
+    "featured": true,
+    "impact": "Expanded DeskDine beyond the web system by contributing the mobile user application experience.",
+    "status": "In Progress",
+    "keyContributions": [
+      "Created the mobile user application.",
+      "Worked on the mobile-side user experience for DeskDine ordering."
+    ],
+    "tools": ["VS Code", "Flutter"],
+    "evidence": [
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/BrownyKat/DeskDine_C.git"
+      }
+    ],
+    "imageSrc": "/portfolio/completion/deskdine-mobile.png",
+    "imageAlt": "DeskDine mobile ordering screenshot",
+    "completionProofs": [
+      {
+        "src": "/portfolio/completion/deskdine-mobile.png",
+        "title": "DeskDine Mobile Ordering",
+        "category": "Lunch ordering",
+        "description": "Mobile ordering interface for staff meal selection and checkout flow.",
+        "alt": "DeskDine mobile order screen",
+        "featured": true
+      },
+      {
+        "src": "/portfolio/completion/deskdine-revenue.png",
+        "title": "DeskDine Revenue Tracker",
+        "category": "Admin reporting",
+        "description": "Revenue and export screen for admin/staff sales tracking.",
+        "alt": "DeskDine revenue screen"
+      }
+    ]
+  },
+  {
+    "slug": "automotive-page-creation",
+    "title": "Page Creation",
+    "description": "Contributed to creating responsive car brand pages using HTML and CSS, including dealership-style landing pages and content-driven automotive layouts.",
+    "techStack": ["HTML", "CSS", "VS Code", "Responsive Design", "Page Creation"],
+    "completionDate": "2026-02-28",
+    "dateLabel": "February 2026",
+    "category": "Page Creation",
+    "featured": true,
+    "impact": "Turned car brand page requirements into completed HTML/CSS pages with structured content and responsive layouts.",
+    "status": "Completed",
+    "keyContributions": [
+      "Contributed to creating pages for car brands.",
+      "Built page sections using HTML and CSS in VS Code.",
+      "Supported completion of multiple page creation deliverables."
+    ],
+    "tools": ["VS Code", "HTML", "CSS"],
+    "evidence": [
+      {
+        "label": "Tracking spreadsheet",
+        "url": "https://docs.google.com/spreadsheets/d/1I9DWg38yJfCJxWGHwZobB0X5bh_S__mjN-Ae6fUUhio/edit?usp=drive_link"
+      },
+      {
+        "label": "Document 1",
+        "url": "https://docs.google.com/document/d/1Z9N1yTpAo8ATRVmM1Vo-2vaEQwZbR6KtI67p_PaYJzU/edit?usp=drive_link"
+      },
+      {
+        "label": "Document 2",
+        "url": "https://docs.google.com/document/d/1LYI5i1cdxHKILEB_llEnDKZfzNyJlAScrfJhxKesmdc/edit?usp=drive_link"
+      },
+      {
+        "label": "Document 3",
+        "url": "https://docs.google.com/document/d/1AjOQFJ4OUZSAa34nFS0udMPMASLO1nOYID-KIy6b1z0/edit?usp=drive_link"
+      },
+      {
+        "label": "Document 4",
+        "url": "https://docs.google.com/document/d/1s4OIWj4RvBl_4wuWdZJsnQ_ym5Me7fBGkNHxDnbTjdY/edit?usp=drive_link"
+      },
+      {
+        "label": "Document 5",
+        "url": "https://docs.google.com/document/d/1af41wGq4kXpzHRhHCaEGZvKAjTmH77D6ve5rnQHMTPs/edit?usp=drive_link"
+      }
+    ],
+    "imageSrc": "/portfolio/completion/mdrrmo-report-flow.png",
+    "imageAlt": "Buick Envista landing page screenshot",
+    "completionProofs": [
+      {
+        "src": "/portfolio/completion/mdrrmo-report-flow.png",
+        "title": "Buick Envista Landing Page",
+        "category": "Page creation",
+        "description": "Automotive landing page hero created for a dealership content brief.",
+        "alt": "Buick Envista landing page screenshot"
+      }
+    ]
+  },
+  {
+    "slug": "portfolio-content-system",
+    "title": "Local Content Portfolio System",
+    "description": "Built a JSON and Markdown driven portfolio architecture where new activities can be added without editing route logic.",
+    "techStack": ["Next.js", "TypeScript", "Markdown", "Tailwind CSS"],
+    "completionDate": "2026-03-01",
+    "category": "Frontend",
+    "featured": true,
+    "impact": "Reduced portfolio updates to content-focused changes while keeping project, log, and timeline sections reusable.",
+    "status": "Completed",
+    "imageSrc": "/portfolio/completion/portfolio-work.png",
+    "imageAlt": "Portfolio work gallery screenshot",
+    "completionProofs": [
+      {
+        "src": "/portfolio/completion/portfolio-work.png",
+        "title": "Portfolio Work",
+        "category": "Portfolio system",
+        "description": "Filterable work gallery for shipped projects and activity records.",
+        "alt": "Portfolio work page screenshot"
+      },
+      {
+        "src": "/portfolio/completion/portfolio-logs.png",
+        "title": "Portfolio Logs",
+        "category": "Documentation",
+        "description": "Log index for weekly internship notes and progress records.",
+        "alt": "Portfolio logs page screenshot"
+      }
+    ]
+  }
+]
